@@ -5,8 +5,8 @@ const Content = ({movies}: {
 }) => {
   return(
     <div className={utilStyles.textAlignCenter}>
-      {movies.map(({title, posterURL}) => (
-        <div className={utilStyles.textAlignCenter}>
+      {movies.map(({id, title, posterURL}) => (
+        <div className={utilStyles.textAlignCenter} key={id}>
           <h2>
             {title}
           </h2>
