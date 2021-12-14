@@ -1,4 +1,3 @@
-import styles from './content.module.css'
 import utilStyles from '../styles/utils.module.css'
 
 const Content = ({movies}: {
